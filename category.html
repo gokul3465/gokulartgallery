@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category - Gokul's Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="tophead">Gokul's Art Gallery</h1>
+    </header>
+    
+    <nav class="artistic-nav">
+      <div class="nav-container">
+          <ul>
+              <li><a href="index.html#home">Home</a></li>
+              <li><a href="index.html#explore">Explore</a></li>
+              <li><a href="index.html#upload">Upload</a></li>
+          </ul>
+      </div>
+  </nav>
+
+    <main role="main">
+        <section id="category">
+            <h2 id="categoryTitle">Category Name</h2>
+            <div class="gallery" id="categoryGallery">
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        © 2024 Gokul's Art Gallery. All rights reserved.
+    </footer>
+
+    <div id="artworkModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-content-wrapper">
+                <img id="modalImage" src="" alt="Full-size artwork">
+                <div id="artworkDetails"></div>
+                <button id="buyButton">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="category.js"></script>
+</body>
+</html>
